@@ -1,0 +1,51 @@
+body {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+#palmeiras_info {
+  width: 700px;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  line-height: 56px;
+  font-weight: normal;
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+
+h1 span {
+  font-weight: bold;
+  color: #254d2c
+}
+
+span, a {
+  color: #254d2c
+}
+
+p {
+  color: #8a8888;
+  line-height: 30px;
+  font-size: 15px;
+  margin-bottom: 20px;
+}
+
+#links_footer a + a {
+  margin-left: 60px;
+  margin-right: 20px;
+}
+
+#image_footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+.line {
+  width: 700px;
+  border: 1px solid #8a8888;
+  margin: 0px auto 10px;
+}
